@@ -49,12 +49,15 @@ builder.Services
     // Configures how the monitoring works specifically for Azure Functions
     .ConfigureFunctionsApplicationInsights();
 
+// Build the configured Functions application host
 var app = builder.Build();
 
 // Use CORS middleware - Actually applies the CORS policy
 app.UseCors("AllowFrontend");
 
+// Start the Functions application and listen for triggers
 app.Run();
+
 
 /* 
 Note! 
