@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterVisitor", "RegisterVisitor.csproj", "{D9B2D6C9-F731-283E-6176-B9BF68B69681}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterVisitor2b", "RegisterVisitor2b\RegisterVisitor2b.csproj", "{6532FCE7-0BC0-4F65-20C2-51AA6E0877A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,15 +10,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D9B2D6C9-F731-283E-6176-B9BF68B69681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D9B2D6C9-F731-283E-6176-B9BF68B69681}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D9B2D6C9-F731-283E-6176-B9BF68B69681}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D9B2D6C9-F731-283E-6176-B9BF68B69681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6532FCE7-0BC0-4F65-20C2-51AA6E0877A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6532FCE7-0BC0-4F65-20C2-51AA6E0877A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6532FCE7-0BC0-4F65-20C2-51AA6E0877A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6532FCE7-0BC0-4F65-20C2-51AA6E0877A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6CAC0D00-564D-4959-8894-A8096B5CD8B4}
+		SolutionGuid = {68F8F956-4351-4DAF-AD4E-68CAEF385805}
 	EndGlobalSection
 EndGlobal
