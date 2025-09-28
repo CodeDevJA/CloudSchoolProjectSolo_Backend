@@ -131,7 +131,8 @@ namespace RegisterVisitor2b
             return response;
         }
 
-        // Database operations - Save visitor information to PostgreSQL
+        // Database operations - Save visitor information to AZ PostgreSQL DB 
+        // (after DTO-request transformation and validation process)
         private async Task SaveVisitorToDatabase(string connectionString, VisitorRequest visitor)
         {
             using var connection = new NpgsqlConnection(connectionString);
