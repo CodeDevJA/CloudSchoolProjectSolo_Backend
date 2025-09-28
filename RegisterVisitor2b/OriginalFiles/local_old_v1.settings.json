@@ -1,0 +1,9 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+        "APPLICATIONINSIGHTS_CONNECTION_STRING": "InstrumentationKey=8039d1f7-7842-49c2-8e1a-14a56c73a883;IngestionEndpoint=https://uksouth-1.in.applicationinsights.azure.com/;LiveEndpoint=https://uksouth.livediagnostics.monitor.azure.com/;ApplicationId=779fda94-2ebc-4199-8d60-e789ffd5761a",
+        "POSTGRES_CONN_STRING": "Host=soloproj-psql-db-flex-server.postgres.database.azure.com; Port=5432; Database=visitorspsqldb2b; Username=pgadmin@soloproj-psql-db-flex-server; Password=PostgreSQL.123; SslMode=Require;"
+    }
+}

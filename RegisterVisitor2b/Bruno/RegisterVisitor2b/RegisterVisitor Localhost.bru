@@ -1,0 +1,24 @@
+meta {
+  name: RegisterVisitor Localhost
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:7071/api/contact
+  body: json
+  auth: inherit
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "Firstname": "John1",
+    "Surname": "Doe",
+    "Company": "LocalHost",
+    "Email": "john.doe@unknown.com"
+  }
+}

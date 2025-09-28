@@ -1,0 +1,24 @@
+meta {
+  name: RegisterVisitor AZ Backend Address
+  type: http
+  seq: 2
+}
+
+post {
+  url: https://soloproj-funcapp2b-d5c2audeevabaqb7.uksouth-01.azurewebsites.net
+  body: json
+  auth: inherit
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "Firstname": "John2",
+    "Surname": "Doe",
+    "Company": "BackendAddress",
+    "Email": "john.doe@unknown.com"
+  }
+}
