@@ -27,7 +27,7 @@ builder.Services.AddCors(options =>
                 // "https://yourfrontend.com", 
 
                 // My Frontend URL - hosted on GitHub Pages
-                "https://github.com/CodeDevJA/CloudSchoolProjectSolo_Frontend.git"
+                "https://codedevja.github.io/CloudSchoolProjectSolo_Frontend/"
             )
             // Permits all HTTP methods (GET, POST, PUT, DELETE, etc)
             .AllowAnyMethod()
